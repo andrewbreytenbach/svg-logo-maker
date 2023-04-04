@@ -1,12 +1,32 @@
-# svg-logo-maker
+# Logo Generator CLI
 
-To create a simple logo generator using JavaScript, you can use Node.js and some additional libraries. In this example, we'll use the inquirer, chalk, and fs libraries to prompt the user for input, create the SVG file, and save it to disk. Follow the steps below to set up the project:
+A simple Node.js command-line application to generate a logo as an SVG file based on user input. Users can provide text, text color, shape, and shape color for their logo.
 
-Install Node.js if you haven't already: https://nodejs.org/en/download/
+## Features
 
-Create a new folder for your project and navigate to it in the terminal.
+- Collects user input through a series of prompts
+- Supports text up to three characters
+- Supports color keywords and hexadecimal values for text and shape color
+- Offers three shape options: circle, triangle, and square
+- Generates a 300x200 pixel SVG image based on the user's input
+- Saves the generated logo as an SVG file named `logo.svg`
+- Uses Jest for running unit tests
 
-Run npm init -y to create a package.json file.
-Install the necessary libraries with npm install inquirer chalk.
+## Installation
 
-Save the file and run the script using the command node logo-generator.js. You will be prompted to enter the required information. After providing the input, the logo.svg file will be generated in your project folder. Open the file in a browser to see the 300x200 pixel image matching the criteria you entered.
+1. Clone this repository:
+2. Change to the project directory:
+3. Install dependencies: npm install 
+
+## Usage
+
+1. Run the application: node index.js
+2. Follow the prompts to enter text, text color, shape, and shape color.
+
+3. The application will generate a `logo.svg` file in the project directory.
+
+4. Open the `logo.svg` file in a browser to view the generated logo.
+
+## Running Tests
+
+1. Run tests with Jest: npm test

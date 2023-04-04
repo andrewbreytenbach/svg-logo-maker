@@ -1,18 +1,15 @@
 {
-  "name": "svg-logo-maker",
+  "name": "logo-generator-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Node.js command-line application to generate a logo as an SVG file.",
   "main": "index.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.2.0",
-    "inquirer": "^9.1.5"
+    "inquirer": "^8.0.0"
   }
 }
-

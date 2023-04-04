@@ -1,7 +1,6 @@
-// Import required modules
-const inquirer = require("inquirer");
-const fs = require("fs");
-const { Triangle, Circle, Square } = require("./lib/shapes");
+import inquirer from "inquirer";
+import fs from "fs";
+import { Triangle, Circle, Square } from "./lib/shapes.js";
 
 // Main function to run the application
 async function main() {
