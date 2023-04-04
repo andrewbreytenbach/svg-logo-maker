@@ -57,4 +57,8 @@ inquirer
       message: "Enter the shape's color (keyword or hexadecimal number):",
     },
   ])
-    
+
+// When the user finishes providing input, call the createSvg function with the answers
+.then((answers) => {
+createSvg(answers.text, answers.textColor, answers.shape, answers.shapeColor);
+})
