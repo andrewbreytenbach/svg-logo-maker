@@ -23,7 +23,9 @@ const createSvg = (text, textColor, shape, shapeColor) => {
 
     // Write the SVG content to a file named logo.svg
   fs.writeFileSync("logo.svg", svgContent);
-  
+
+  // Print a success message to the console using the chalk library for colored text
+  console.log(chalk.green("Generated logo.svg"));
   
 };
 
