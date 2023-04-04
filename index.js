@@ -20,6 +20,12 @@ const createSvg = (text, textColor, shape, shapeColor) => {
     <text x="150" y="100" text-anchor="middle" dy=".3em" font-size="48" fill="${textColor}">${text}</text>
   </svg>
     `;
-}
+
+    // Write the SVG content to a file named logo.svg
+  fs.writeFileSync("logo.svg", svgContent);
+  
+  
+};
+
 
     
