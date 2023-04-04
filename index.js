@@ -62,3 +62,8 @@ inquirer
 .then((answers) => {
 createSvg(answers.text, answers.textColor, answers.shape, answers.shapeColor);
 })
+
+ // If there's an error during the process, print an error message to the console
+ .catch((error) => {
+    console.error(chalk.red("Error generating logo:", error));
+  });
