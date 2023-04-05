@@ -47,6 +47,6 @@ Run tests with Jest: npm test
 Project Link: [https://github.com/andrewbreytenbach/svg-logo-maker](SVG Logo Maker)
 
 ## Acknowledgments
-[https://nodejs.org/] (Node.js)
-[https://jestjs.io/] (Jest)
-[https://developer.mozilla.org/en-US/docs/Web/SVG] (SVG)
+* [https://nodejs.org/] (Node.js)
+* [https://jestjs.io/] (Jest)
+* [https://developer.mozilla.org/en-US/docs/Web/SVG] (SVG)
