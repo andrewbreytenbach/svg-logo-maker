@@ -21,9 +21,9 @@ Install dependencies: npm install
 ![Install](/images/install.png "Install")
 
 ## Usage
-Run the application: node index.js
+Run the application: node index.cjs
 
-![Index.js](/images/index.png "Run Index.js")
+![Index.js](/images/index.png "Run Index.cjs")
 
 Follow the prompts to enter text, text color, shape, and shape color.
 
@@ -37,10 +37,10 @@ Open the logo.svg file in a browser to view the generated logo.
 
 ![SVG Logo](/images/preview.png "SVG Logo")
 
-View a video walkthrough here: [https://drive.google.com/file/d/1ohsBAYN43bAXIpsnIjqFAjTwL0ulEJFr/view](SVG Logo Maker Walkthrough)
+View a video walkthrough here: [https://drive.google.com/file/d/16-_g7mLnuuAOFxBd4VP205PddJxSr9HR/view](SVG Logo Maker Walkthrough)
 
 ## Running Tests
-Run tests with Jest: npm test
+Run tests with Jest: npx jest
 
 ## Contact
 [https://github.com/andrewbreytenbach](Andrew Breytenbach)
