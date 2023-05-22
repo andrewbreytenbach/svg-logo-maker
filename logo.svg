@@ -1,7 +1,7 @@
 
       <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="150" cy="100" r="80" fill="blue" />
-        <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="white" font-size="48" font-family="Arial, sans-serif">
+        <rect x="70" y="60" width="160" height="80" fill="blue" />
+        <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="red" font-size="48" font-family="Arial, sans-serif">
           AMB
         </text>
       </svg>
