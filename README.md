@@ -37,10 +37,10 @@ Open the logo.svg file in a browser to view the generated logo.
 
 ![SVG Logo](/images/preview.png "SVG Logo")
 
-View a video walkthrough here: [https://drive.google.com/file/d/1Zh_rADG2ldUURLF-s36jV9qi_iIAMDHd/view](SVG Logo Maker Walkthrough)
+View a video walkthrough here: [https://drive.google.com/file/d/1_iCwM9D6XuGloawULFzEoJLfpaqor4pE/view](SVG Logo Maker Walkthrough)
 
 ## Running Tests
-Run tests with Jest: npx jest
+Run tests with Jest: npm test
 
 ## Contact
 [https://github.com/andrewbreytenbach](Andrew Breytenbach)
